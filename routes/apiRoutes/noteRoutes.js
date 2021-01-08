@@ -26,6 +26,7 @@ router.post('/notes', (req, res) => {
     } else {
         editNote(req.body, notes);
     }
+    res.json(req.body)
 })
 
 router.delete('/notes/:id', (req, res) => {

@@ -40,12 +40,6 @@ const saveNote = (note) =>
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(note),
-  }).then((response) => {
-    if (response.ok) {
-      return response.json();
-    } else {
-      alert(`Error: ${response.statusText}`);
-    }
   });
 
 const deleteNote = (id) =>
@@ -91,6 +85,7 @@ const handleNoteSave = () => {
       text: noteText.value
     };
   };
+
 
   saveNote(note).then(() => {
     getAndRenderNotes();
