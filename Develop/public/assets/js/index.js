@@ -75,7 +75,7 @@ const renderActiveNote = () => {
 };
 
 const handleNoteSave = () => {
-  debugger
+  debugger;
   let note;
   let noteId = noteTitle.getAttribute('data-id');
 
