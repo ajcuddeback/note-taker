@@ -1,63 +1,31 @@
 # Note Taker
 
-## Description
+## Table of Contents:
 
-An Express.js application for taking notes.
+- [Purpose](#purpose)
+- [Features](#features)
+- [Usage](#usage)
+- [Website](#website)
 
-View the deployed page at [Note Taker](https://deckiedevs-note-taker.herokuapp.com).
+## Purpose
 
-<br />
-
-## Contents
-
-- [Usage](#Usage)
-  - [Screenshots](#Screenshots)
-- [Built With](#Built-With)
-- [Questions](#Questions)
-- [Credits](#Credits)
-
-<br />
+- This website will allow a user to add, edit, and delete notes
 
 ## Usage
 
-- Click on the "Get Started" button to start adding notes.
-- Click on "Note Title" and "Note Text" fields to add notes.
-- New notes can be saved using the floppy disc icon in the top-right of the browser.
-- Saved notes will appear in the left-hand column.
-- Clicking on a saved note will display the note in the right-hand column, allowing the user to edit their notes.
-- The pencil icon will allow the user to add a new note at any time.
-- The trash icon will permanently delete the selected note.
+- Click the pen to add a new note
+- Click the red trash icon to delete a note
+- Click a existing note to edit a note
+- When finished editing or adding a note, click the save button in upper right corner to save the note
 
-<br />
-    
-### Screenshots
-![Splash Page Screenshot](./assets/images/screenshot1.png)
-Splash page for the Note Taker application.
+## Features
 
-<br />
+- Express.js & Express.js Router
+- JSON/RESTful API
+- Created with HTML, CSS, and JS
 
-![Note Taker Screenshot](./assets/images/screenshot2.png)
-The Note Taker application in use.
+## Website
 
-<br />
+![Weather App](./images/note-taker.png)
 
-## Built With
-
-- Node.js
-- Express.js
-- [UUID](https://www.npmjs.com/package/uuid)
-- JavaScript
-- HTML/CSS
-- [BootStrap](https://getbootstrap.com/)
-
-<br />
-
-## Questions
-
-If you have any questions about the repo, please [open an issue](https://github.com/deckiedevs/note-taker/issues) or contact me via email at deckiedevs@gmail.com. You can find more of my work on my GitHub, [deckiedevs](https://github.com/deckiedevs/).
-
-<br />
-    
-## Credits
-* Starter code provided by [UCF Coding Boot Camp](https://github.com/coding-boot-camp/miniature-eureka).
-* Created with some confusion by Mila Decker.
+[Deployed Weather App](https://vast-atoll-67249.herokuapp.com/)
